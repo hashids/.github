@@ -29,11 +29,16 @@ No. Sqids produces different IDs. We advise to use it only on new projects or if
 
 ### Has every existing language been upgraded to the new algorithm?
 
-No. Upgrading repos is an on-going process. You can see the progress [here](https://github.com/orgs/sqids/repositories). If you'd like to contribute for a new language or an existing language, please reach out to one of the maintainers.
+No. Upgrading repos is an on-going process. You can see the progress [here](https://github.com/orgs/sqids/repositories). If you'd like to contribute to a new language or an existing repository, please reach out to one of the maintainers.
 
 ### When can I start using Sqids?
 
 Now. Some implementations have already been published.
+
+### What's next?
+
+- New [language repos](https://github.com/orgs/sqids/repositories) are being worked on
+- Soon `hashids.org` will redirect to `sqids.org`
 
 ### Where can I find more info?
 
