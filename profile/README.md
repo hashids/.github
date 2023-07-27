@@ -1,8 +1,8 @@
-# Hashids is moving
+# Hashids is moving 🧳
 
 > **tl&dr:** Hashids is being upgraded & rebranded to [Sqids](https://sqids.org/).
 
-Hashids is a small library that generates YouTube-looking IDs from numbers. By now, it supports implementations in many different programming languages. Because it has served the community well over the last few years, we believe we can improve it in a few ways:
+Hashids is a small library that generates YouTube-looking IDs from numbers. By now, it supports implementations in many different programming languages. It has served the community well over the last few years & we believe we can improve it in a few ways:
 
 ## What is changing?
 
@@ -25,11 +25,11 @@ Nothing. Existing implementations stay where they are. They have plenty of on-go
 
 ### Is the new algorithm a drop-in replacement for Hashids?
 
-No. Sqids produces different IDs. We advise to use it only on new projects or if you are not dealing with any existing IDs.
+No. Sqids produces different IDs. We advise to use it only on new projects or if you are not using any pre-generated IDs.
 
 ### Has every existing language been upgraded to the new algorithm?
 
-No. Upgrading repos is an on-going process. You can see the progress [here](https://github.com/orgs/sqids/repositories). If you'd like to contribute to a new language or an existing repository, please reach out to one of the maintainers.
+No. Upgrading repos is an on-going process. You can see the progress [here](https://github.com/orgs/sqids/repositories). If you'd like to [contribute to a new language or an existing repository](https://github.com/sqids/sqids-spec#-porting-to-a-new-language), please reach out to one of the maintainers.
 
 ### When can I start using Sqids?
 
@@ -37,8 +37,8 @@ Now. Some implementations have already been published.
 
 ### What's next?
 
-- New [language repos](https://github.com/orgs/sqids/repositories) are being worked on
-- Soon `hashids.org` will redirect to `sqids.org`
+- [x] Redirect `hashids.org` to `sqids.org`
+- [ ] New [language repos](https://github.com/orgs/sqids/repositories) are being worked on
 
 ### Where can I find more info?
 
