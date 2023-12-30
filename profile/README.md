@@ -1,13 +1,13 @@
-# Hashids is moving 🧳
+# Hashids → Sqids ✨
 
-> **tl&dr:** Hashids is being upgraded & rebranded to [Sqids](https://sqids.org/).
+> **tl&dr:** Hashids has been upgraded & rebranded to [Sqids](https://sqids.org/).
 
-Hashids is a small library that generates YouTube-looking IDs from numbers. By now, it supports implementations in many different programming languages. It has served the community well over the last few years & we believe we can improve it in a few ways:
+Hashids is a small library that generates short unique IDs from numbers. By now, it supports implementations in many different programming languages. It has served the community well over the last few years & we believe we can improve it in a few ways:
 
-## What is changing?
+## What has changed?
 
 1. **Repos are now hosted in [one place](https://github.com/orgs/sqids/repositories).** That way it's easier to maintain & update code (existing repos stay where they are).
-1. **Consistent IDs.** All supported programming languages produce the same IDs.
+1. **Consistent output.** All supported programming languages produce the same IDs.
 1. **Simpler algorithm.** The new algorithm produces better randomized IDs, while keeping implementation simple.
 1. **Simplified API.** Only `encode` and `decode` functions w/ clear indication for the largest supported unsigned integer.
 1. **No more salt.** Support for custom IDs is now done by providing a manually shuffled alphabet. This is an optional step.
@@ -17,7 +17,7 @@ Hashids is a small library that generates YouTube-looking IDs from numbers. By n
 1. **Updated [website](https://sqids.org/).** Now includes use-cases, playground, easier repo filtering, FAQs & features.
 1. **Sponsor support.** To ensure that the project can be sustained for years to come.
 
-## FAQs
+## [FAQs](https://sqids.org/faq#hashids)
 
 ### What is happening with existing repos?
 
@@ -29,16 +29,11 @@ No. Sqids produces different IDs. We advise to use it only on new projects or if
 
 ### Has every existing language been upgraded to the new algorithm?
 
-No. Upgrading repos is an on-going process. You can see the progress [here](https://github.com/orgs/sqids/repositories). If you'd like to [contribute to a new language or an existing repository](https://github.com/sqids/sqids-spec#-porting-to-a-new-language), please reach out to one of the maintainers.
+No. Upgrading repos is an on-going process. You can see the progress [here](https://github.com/orgs/sqids/repositories). You can also help by [contributing](https://sqids.org/faq#contribute).
 
 ### When can I start using Sqids?
 
-Now. Some implementations have already been published.
-
-### What's next?
-
-- [x] Redirect `hashids.org` to `sqids.org`
-- [ ] New [language repos](https://github.com/orgs/sqids/repositories) are being worked on
+Now. Most implementations have already been published.
 
 ### Where can I find more info?
 
